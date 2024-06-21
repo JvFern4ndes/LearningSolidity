@@ -14,4 +14,8 @@ contract Calculator {
         result -= num;
     }
 
+    function multiply( uint256 num ) public {
+        result *= num;
+    }
+
 }
