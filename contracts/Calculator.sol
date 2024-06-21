@@ -18,4 +18,8 @@ contract Calculator {
         result *= num;
     }
 
+    function getResult() public view returns ( uint256 ) {
+        return result;
+    }
+
 }
