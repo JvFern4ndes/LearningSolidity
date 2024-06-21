@@ -6,7 +6,12 @@ contract Calculator {
 
     uint256 result = 0;
 
-    function add() public {
-        result += 1;
+    function add( uint256 num ) public {
+        result += num;
     }
+
+    function subtract( uint256 num ) public {
+        result -= num;
+    }
+
 }
